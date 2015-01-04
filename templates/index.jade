@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  article.article
+    each person in contents.people      
+      div.person.row        
+        a(href=person['index.md'].filepath.relative.replace('index.md',''))
+          span.name.two.columns= person['index.md'].metadata.name
+        span.role.two.columns= person['index.md'].metadata.role
+

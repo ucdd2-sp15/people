@@ -6,9 +6,6 @@
     "description": "People in UCDD 2"
   },
   "require": {
-    "moment": "moment",
-    "_": "underscore",
-    "typogr": "typogr"
   },
   "jade": {
     "pretty": true

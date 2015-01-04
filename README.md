@@ -10,6 +10,12 @@ Site listing all the people in UCDD2 Spring 2015
 
 	$ npm install wintersmith -g
 
+# Install
+
+Install Node modules
+
+	$ npm install
+
 # Preview
 
 	$ wintersmith preview [-p 8080]

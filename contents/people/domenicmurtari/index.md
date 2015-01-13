@@ -19,5 +19,5 @@ Ruby
 
 ### Learning 1
 
-![Learning 1 Screenshot](milestone1.png)
-![Learning 2 Screenshot](milestone2.png)
+<img src="milestone1.png" style="width: 1000px;"/>
+<img src="milestone2.png" style="width: 1000px;"/>

@@ -25,6 +25,8 @@ Ruby
 
 ![Week 0 Screenshot 1][1]
 ![Week 0 Screenshot 2][2]
+![Week 0 Screenshot 3][3]
 
 [1]: ./one_more_implementation.png "further implementation"
 [2]: ./commit_more_implementations.png "github commit page for further implementation"
+[3]: ./htmlgen_test_output.png "test output to show results of htmlgen changes"

@@ -16,5 +16,6 @@ Chicken Fried Rice with Hot Sauce of Some Variety
 Scala
 
 ![Alt text](HATH1.png "WORDS")
+![Alt text](HATH2.png "MORE WORDS")
 
 

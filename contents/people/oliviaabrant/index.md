@@ -10,6 +10,14 @@ template: person.jade
 
 Pizza
 
+##Year
+
+Junior
+
+##Hobbies
+
+Reading, watching TV shows (Bones, Doctor Who, Torchwood, Psych), running
+
 ## Favorite Programming Language
 
 Python

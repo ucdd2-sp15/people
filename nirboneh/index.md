@@ -17,4 +17,4 @@ Java
 
 ## Screen shoot
 
-![screen](screenshot.png)
+![screen](ScreenShot.png)

@@ -21,4 +21,10 @@ Ruby
 - Javascript
 - C#
 
+## Screenshots
 
+![Week 0 Screenshot 1][1]
+![Week 0 Screenshot 2][2]
+
+[1]: ./one_more_implementation.png "further implementation"
+[2]: ./commit_more_implementations.png "github commit page for further implementation"

@@ -9,7 +9,9 @@ Jake Smith
 
 ## Favorite Food
 
-Phở
+- Phở
+- Indian
+- ... (this list is a lot longer than the one that lists the foods I don't like)
 
 ## Favorite Programming Language
 

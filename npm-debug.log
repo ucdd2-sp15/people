@@ -17,21 +17,34 @@
 6 verbose parsed url   path: 'wintersmith',
 6 verbose parsed url   href: 'wintersmith' }
 7 silly lockFile 0283f77b-wintersmith wintersmith
+<<<<<<< HEAD
 8 verbose lock wintersmith /Users/HaoranFang/.npm/0283f77b-wintersmith.lock
+=======
+8 verbose lock wintersmith /Users/Zhihao/.npm/0283f77b-wintersmith.lock
+>>>>>>> 779e981c89a894e028901a0e4dcc57859cded561
 9 silly lockFile 0283f77b-wintersmith wintersmith
 10 silly lockFile 0283f77b-wintersmith wintersmith
 11 verbose addNamed [ 'wintersmith', '' ]
 12 verbose addNamed [ null, '*' ]
 13 silly lockFile 06dc1a4e-wintersmith wintersmith@
+<<<<<<< HEAD
 14 verbose lock wintersmith@ /Users/HaoranFang/.npm/06dc1a4e-wintersmith.lock
 15 silly addNameRange { name: 'wintersmith', range: '*', hasData: false }
 16 verbose request where is /wintersmith
 17 verbose request registry https://registry.npmjs.org/
 18 verbose request id bfb4c8ec75009290
+=======
+14 verbose lock wintersmith@ /Users/Zhihao/.npm/06dc1a4e-wintersmith.lock
+15 silly addNameRange { name: 'wintersmith', range: '*', hasData: false }
+16 verbose request where is /wintersmith
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 4d3f325ee87e8729
+>>>>>>> 779e981c89a894e028901a0e4dcc57859cded561
 19 verbose url raw /wintersmith
 20 verbose url resolving [ 'https://registry.npmjs.org/', './wintersmith' ]
 21 verbose url resolved https://registry.npmjs.org/wintersmith
 22 verbose request where is https://registry.npmjs.org/wintersmith
+<<<<<<< HEAD
 23 info trying registry request attempt 1 at 17:57:40
 24 http GET https://registry.npmjs.org/wintersmith
 25 http 200 https://registry.npmjs.org/wintersmith
@@ -189,3 +202,154 @@
 70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
 70 error fstream_stack Object.oncomplete (fs.js:108:15)
 71 verbose exit [ 3, true ]
+=======
+23 info trying registry request attempt 1 at 17:45:38
+24 verbose etag "AB8Z10UFH8EVSMRD3EUIS8K6S"
+25 http GET https://registry.npmjs.org/wintersmith
+26 http 304 https://registry.npmjs.org/wintersmith
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Tue, 13 Jan 2015 00:45:38 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Tue, 13 Jan 2015 00:45:38 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"AB8Z10UFH8EVSMRD3EUIS8K6S"',
+27 silly registry.get     age: '5',
+27 silly registry.get     'x-served-by': 'cache-lax1425-LAX',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1421109938.404699,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/wintersmith from cache
+29 silly addNameRange number 2 { name: 'wintersmith', range: '*', hasData: true }
+30 silly addNameRange versions [ 'wintersmith',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.1.4',
+30 silly addNameRange     '0.1.5',
+30 silly addNameRange     '0.1.6',
+30 silly addNameRange     '0.1.7',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.0.5',
+30 silly addNameRange     '1.0.6',
+30 silly addNameRange     '1.0.7',
+30 silly addNameRange     '1.1.1',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.2.1',
+30 silly addNameRange     '1.2.2',
+30 silly addNameRange     '1.2.4',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '2.0.1',
+30 silly addNameRange     '2.0.2',
+30 silly addNameRange     '2.0.3',
+30 silly addNameRange     '2.0.4',
+30 silly addNameRange     '2.0.5',
+30 silly addNameRange     '2.0.6',
+30 silly addNameRange     '2.0.7',
+30 silly addNameRange     '2.0.8',
+30 silly addNameRange     '2.0.9',
+30 silly addNameRange     '2.0.10',
+30 silly addNameRange     '2.1.0' ] ]
+31 verbose addNamed [ 'wintersmith', '2.1.0' ]
+32 verbose addNamed [ '2.1.0', '2.1.0' ]
+33 silly lockFile 6d4156ea-wintersmith-2-1-0 wintersmith@2.1.0
+34 verbose lock wintersmith@2.1.0 /Users/Zhihao/.npm/6d4156ea-wintersmith-2-1-0.lock
+35 silly lockFile 6d4156ea-wintersmith-2-1-0 wintersmith@2.1.0
+36 silly lockFile 6d4156ea-wintersmith-2-1-0 wintersmith@2.1.0
+37 silly lockFile 06dc1a4e-wintersmith wintersmith@
+38 silly lockFile 06dc1a4e-wintersmith wintersmith@
+39 silly resolved [ { name: 'wintersmith',
+39 silly resolved     version: '2.1.0',
+39 silly resolved     author: { name: 'Johan Nordberg', email: 'code@johan-nordberg.com' },
+39 silly resolved     description: 'A flexible static site generator.',
+39 silly resolved     license: 'MIT',
+39 silly resolved     main: './lib/',
+39 silly resolved     keywords: [ 'static', 'generator', 'markdown', 'jade' ],
+39 silly resolved     bin: { wintersmith: './bin/wintersmith' },
+39 silly resolved     scripts: { prepublish: 'node ./bin/dev/compile_coffee' },
+39 silly resolved     directories: { lib: './lib/' },
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'https://github.com/jnordberg/wintersmith.git' },
+39 silly resolved     dependencies:
+39 silly resolved      { marked: '~0.3.0',
+39 silly resolved        'coffee-script': '~1.6.3',
+39 silly resolved        async: '~0.2.9',
+39 silly resolved        'highlight.js': '~8.0.0',
+39 silly resolved        jade: '~1.1.5',
+39 silly resolved        ncp: '~0.5.0',
+39 silly resolved        rimraf: '~2.2.6',
+39 silly resolved        winston: '~0.7.2',
+39 silly resolved        colors: '~0.6.2',
+39 silly resolved        optimist: '~0.6.0',
+39 silly resolved        minimatch: '~0.2.14',
+39 silly resolved        mime: '~1.2.11',
+39 silly resolved        'js-yaml': '~3.0.1',
+39 silly resolved        mkdirp: '~0.3.5',
+39 silly resolved        chokidar: '~0.8.1',
+39 silly resolved        'server-destroy': '~1.0.0',
+39 silly resolved        npm: '~1.3.24',
+39 silly resolved        slugg: '~0.1.2' },
+39 silly resolved     devDependencies: { shelljs: '0.1.x' },
+39 silly resolved     engine: { node: '>=0.6' },
+39 silly resolved     bugs: { url: 'https://github.com/jnordberg/wintersmith/issues' },
+39 silly resolved     homepage: 'https://github.com/jnordberg/wintersmith',
+39 silly resolved     _id: 'wintersmith@2.1.0',
+39 silly resolved     _shasum: '39bfa47688dc0ff3145e8328da722ee5b538b33e',
+39 silly resolved     _from: 'wintersmith@',
+39 silly resolved     _npmVersion: '1.4.9',
+39 silly resolved     _npmUser: { name: 'jnordberg', email: 'code@johan-nordberg.com' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: '39bfa47688dc0ff3145e8328da722ee5b538b33e',
+39 silly resolved        tarball: 'http://registry.npmjs.org/wintersmith/-/wintersmith-2.1.0.tgz' },
+39 silly resolved     _resolved: 'https://registry.npmjs.org/wintersmith/-/wintersmith-2.1.0.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install wintersmith@2.1.0 into /usr/local/lib
+41 info installOne wintersmith@2.1.0
+42 verbose lib/node_modules/wintersmith unbuild
+43 verbose tar unpack /Users/Zhihao/.npm/wintersmith/2.1.0/package.tgz
+44 silly lockFile 825d8fbd-cal-lib-node-modules-wintersmith tar:///usr/local/lib/node_modules/wintersmith
+45 verbose lock tar:///usr/local/lib/node_modules/wintersmith /Users/Zhihao/.npm/825d8fbd-cal-lib-node-modules-wintersmith.lock
+46 silly lockFile 452e5d52-pm-wintersmith-2-1-0-package-tgz tar:///Users/Zhihao/.npm/wintersmith/2.1.0/package.tgz
+47 verbose lock tar:///Users/Zhihao/.npm/wintersmith/2.1.0/package.tgz /Users/Zhihao/.npm/452e5d52-pm-wintersmith-2-1-0-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/wintersmith'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/wintersmith']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/wintersmith',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/wintersmith',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:108:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.0.0
+52 error command "node" "/usr/local/bin/npm" "install" "wintersmith" "-g"
+53 error cwd /Users/Zhihao/GitHub/people
+54 error node -v v0.10.35
+55 error npm -v 1.4.28
+56 error path /usr/local/lib/node_modules/wintersmith
+57 error fstream_path /usr/local/lib/node_modules/wintersmith
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/wintersmith'
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:108:15)
+64 verbose exit [ 3, true ]
+>>>>>>> 779e981c89a894e028901a0e4dcc57859cded561
